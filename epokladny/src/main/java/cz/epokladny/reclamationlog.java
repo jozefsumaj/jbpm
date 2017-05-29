@@ -13,6 +13,8 @@ public class reclamationlog implements java.io.Serializable
    private java.lang.String location;
    private java.lang.Boolean damaged;
 
+   private java.util.Date datecreated;
+
    public reclamationlog()
    {
    }
@@ -47,12 +49,23 @@ public class reclamationlog implements java.io.Serializable
       this.damaged = damaged;
    }
 
-   public reclamationlog(java.lang.String description,
-         java.lang.String location, java.lang.Boolean damaged)
+   public java.util.Date getDatecreated()
+   {
+      return this.datecreated;
+   }
+
+   public void setDatecreated(java.util.Date datecreated)
+   {
+      this.datecreated = datecreated;
+   }
+
+   public reclamationlog(java.lang.String description, java.lang.String location,
+         java.lang.Boolean damaged, java.util.Date datecreated)
    {
       this.description = description;
       this.location = location;
       this.damaged = damaged;
+      this.datecreated = datecreated;
    }
 
 }
