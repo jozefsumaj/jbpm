@@ -11,7 +11,7 @@ public class reclamationassesment implements java.io.Serializable
 
    private java.lang.Boolean replicated;
    private java.lang.String occurence;
-   private java.lang.Double estimation;
+   private Integer estimation;
 
    public reclamationassesment()
    {
@@ -37,18 +37,18 @@ public class reclamationassesment implements java.io.Serializable
       this.occurence = occurence;
    }
 
-   public java.lang.Double getEstimation()
+   public java.lang.Integer getEstimation()
    {
       return this.estimation;
    }
 
-   public void setEstimation(java.lang.Double estimation)
+   public void setEstimation(java.lang.Integer estimation)
    {
       this.estimation = estimation;
    }
 
    public reclamationassesment(java.lang.Boolean replicated,
-         java.lang.String occurence, java.lang.Double estimation)
+         java.lang.String occurence, java.lang.Integer estimation)
    {
       this.replicated = replicated;
       this.occurence = occurence;
