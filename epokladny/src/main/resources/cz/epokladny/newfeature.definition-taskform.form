@@ -38,13 +38,13 @@
 <property name="outputBinding" value="newfeature/requiresdesign"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="5" name="newfeature_targetfix" type="InputDate" id="324391159">
+<field position="5" name="newfeature_targetfix" type="InputShortDate" id="324391159">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;targetfix (newfeature)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="defaultValueFormula" value="new java.Util.Date();"/>
+<property name="defaultValueFormula" value="=new java.util.Date()"/>
 <property name="outputBinding" value="newfeature/targetfix"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
