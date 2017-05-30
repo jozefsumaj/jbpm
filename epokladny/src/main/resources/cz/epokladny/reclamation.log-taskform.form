@@ -7,15 +7,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt;
-quot;quot;dequot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt;
-quot;quot;enquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt;
-quot;quot;esquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt;
-quot;quot;frquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt;
-quot;quot;jaquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt;
-quot;quot;ptquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt;
-quot;quot;zhquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt; quot;quot;dequot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt; quot;quot;enquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt; quot;quot;esquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt; quot;quot;frquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt; quot;quot;jaquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt; quot;quot;ptquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt; quot;quot;zhquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;New reclamation&lt;/h1&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="1" name="1904275709" type="InputShortDate" id="1904275709">
@@ -31,7 +23,7 @@ quot;"/>
 <field position="2" name="763444286" type="InputText" id="763444286">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Customer&apos;s full namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Customer&apos;s full namequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -43,7 +35,7 @@ quot;"/>
 <field position="3" name="1767129418" type="InputTextEmail" id="1767129418">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Customer&apos;s emailquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Customer&apos;s emailquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -62,7 +54,7 @@ quot;"/>
 <property name="outputBinding" value="reclamationlog/location"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="238343784" type="InputTextArea" id="238343784">
+<field position="5" name="description" type="InputTextArea" id="238343784">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value="4"/>
