@@ -7,7 +7,15 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Device assesment&lt;/h1&gt; quot;quot;dequot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Device assesment&lt;/h1&gt; quot;quot;enquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Device assesment&lt;/h1&gt; quot;quot;esquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Device assesment&lt;/h1&gt; quot;quot;frquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Device assesment&lt;/h1&gt; quot;quot;jaquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Device assesment&lt;/h1&gt; quot;quot;ptquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Device assesment&lt;/h1&gt; quot;quot;zhquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Device assesment&lt;/h1&gt; quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h1&gt;Device assesment&lt;/h1&gt;
+quot;quot;dequot;,quot;&lt;h1&gt;Device assesment&lt;/h1&gt;
+quot;quot;enquot;,quot;&lt;h1&gt;Device assesment&lt;/h1&gt;
+quot;quot;esquot;,quot;&lt;h1&gt;Device assesment&lt;/h1&gt;
+quot;quot;frquot;,quot;&lt;h1&gt;Device assesment&lt;/h1&gt;
+quot;quot;jaquot;,quot;&lt;h1&gt;Device assesment&lt;/h1&gt;
+quot;quot;ptquot;,quot;&lt;h1&gt;Device assesment&lt;/h1&gt;
+quot;quot;zhquot;,quot;&lt;h1&gt;Device assesment&lt;/h1&gt;
+quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="1" name="reclamationlog_description" type="InputTextArea" id="1777234818">
@@ -47,7 +55,7 @@
 </field>
 <field position="4" name="occurence" type="InputText" id="221239942">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Defect occurencequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
