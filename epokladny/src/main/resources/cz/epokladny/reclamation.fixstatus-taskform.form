@@ -43,7 +43,7 @@
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
 <field position="3" name="1164474637" type="InputTextArea" id="1164474637">
-<property name="fieldRequired" value="false"/>
+<property name="fieldRequired" value="true"/>
 <property name="height" value="4"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Steps takenquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Please provide steps!quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
