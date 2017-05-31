@@ -9,8 +9,13 @@ public class reclamationassesment implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   @org.kie.api.definition.type.Label("Malfunction replicated")
    private java.lang.Boolean replicated;
+   @org.kie.api.definition.type.Label("Frequency of malfunction")
+   @org.kie.api.definition.type.Description("How many times does the malfunction occur?")
    private java.lang.String occurence;
+   @org.kie.api.definition.type.Label("Estimated time to fix")
+   @org.kie.api.definition.type.Description("Number of hours to fix the malfunction")
    private Integer estimation;
 
    public reclamationassesment()
