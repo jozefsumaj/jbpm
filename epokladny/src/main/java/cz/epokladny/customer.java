@@ -13,6 +13,8 @@ public class customer implements java.io.Serializable
    private java.lang.String lastName;
    private java.lang.String email;
 
+   private java.util.List<java.lang.String> _links;
+
    public customer()
    {
    }
@@ -47,12 +49,23 @@ public class customer implements java.io.Serializable
       this.email = email;
    }
 
+   public java.util.List<java.lang.String> get_links()
+   {
+      return this._links;
+   }
+
+   public void set_links(java.util.List<java.lang.String> _links)
+   {
+      this._links = _links;
+   }
+
    public customer(java.lang.String firstName, java.lang.String lastName,
-         java.lang.String email)
+         java.lang.String email, java.util.List<java.lang.String> _links)
    {
       this.firstName = firstName;
       this.lastName = lastName;
       this.email = email;
+      this._links = _links;
    }
 
 }
