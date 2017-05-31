@@ -13,7 +13,7 @@ public class customer implements java.io.Serializable
 
    private java.lang.String productName;
 
-   private java.lang.Integer productId;
+   private String productId;
 
    private java.lang.String customerEmail;
 
@@ -41,16 +41,6 @@ public class customer implements java.io.Serializable
       this.productName = productName;
    }
 
-   public java.lang.Integer getProductId()
-   {
-      return this.productId;
-   }
-
-   public void setProductId(java.lang.Integer productId)
-   {
-      this.productId = productId;
-   }
-
    public java.lang.String getCustomerEmail()
    {
       return this.customerEmail;
@@ -61,8 +51,18 @@ public class customer implements java.io.Serializable
       this.customerEmail = customerEmail;
    }
 
+   public java.lang.String getProductId()
+   {
+      return this.productId;
+   }
+
+   public void setProductId(java.lang.String productId)
+   {
+      this.productId = productId;
+   }
+
    public customer(java.lang.String customerName, java.lang.String productName,
-         java.lang.Integer productId, java.lang.String customerEmail)
+         java.lang.String productId, java.lang.String customerEmail)
    {
       this.customerName = customerName;
       this.productName = productName;
