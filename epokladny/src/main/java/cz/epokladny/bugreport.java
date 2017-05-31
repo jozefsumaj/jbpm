@@ -14,6 +14,8 @@ public class bugreport implements java.io.Serializable
    private java.lang.String severity;
    private java.lang.String product;
 
+   private java.lang.String version;
+
    public bugreport()
    {
    }
@@ -58,13 +60,25 @@ public class bugreport implements java.io.Serializable
       this.product = product;
    }
 
+   public java.lang.String getVersion()
+   {
+      return this.version;
+   }
+
+   public void setVersion(java.lang.String version)
+   {
+      this.version = version;
+   }
+
    public bugreport(java.lang.String name, java.lang.String description,
-         java.lang.String severity, java.lang.String product)
+         java.lang.String severity, java.lang.String product,
+         java.lang.String version)
    {
       this.name = name;
       this.description = description;
       this.severity = severity;
       this.product = product;
+      this.version = version;
    }
 
 }
