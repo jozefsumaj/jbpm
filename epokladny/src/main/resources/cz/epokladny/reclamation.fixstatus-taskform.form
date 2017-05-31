@@ -7,15 +7,7 @@
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt;
-quot;quot;dequot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt;
-quot;quot;enquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt;
-quot;quot;esquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt;
-quot;quot;frquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt;
-quot;quot;jaquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt;
-quot;quot;ptquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt;
-quot;quot;zhquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt;
-quot;"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt; quot;quot;dequot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt; quot;quot;enquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt; quot;quot;esquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt; quot;quot;frquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt; quot;quot;jaquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt; quot;quot;ptquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt; quot;quot;zhquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Technical reclamation report&lt;/h1&gt; quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
 <field position="1" name="reclamationassesment_estimation" type="InputTextInteger" id="1124557253">
@@ -23,15 +15,16 @@ quot;"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Estimation providedquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Hoursquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
 <property name="size" value="2"/>
 <property name="cssStyle" value="margin-bottom:30px"/>
 <property name="inputBinding" value="reclamationassesment/estimation"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="2" name="294910667" type="CheckBox" id="294910667">
+<field position="5" name="294910667" type="CheckBox" id="294910667">
 <property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fixedquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -39,31 +32,33 @@ quot;"/>
 <property name="outputBinding" value="reclamationreport/fixed"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="3" name="883289404" type="InputTextInteger" id="883289404">
+<field position="2" name="883289404" type="InputTextInteger" id="883289404">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Actual time spent fixingquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Fill in number of hoursquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Number of hoursquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="size" value="2"/>
 <property name="outputBinding" value="reclamationreport/timespent"/>
 <property name="fieldClass" value="java.lang.Integer"/>
 </field>
-<field position="4" name="1164474637" type="InputTextArea" id="1164474637">
+<field position="3" name="1164474637" type="InputTextArea" id="1164474637">
 <property name="fieldRequired" value="false"/>
 <property name="height" value="4"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Steps takenquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Please provide steps!quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="size" value="40"/>
+<property name="cssStyle" value="margin-bottom:10px"/>
 <property name="outputBinding" value="reclamationreport/steps"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="830000938" type="InputTextArea" id="830000938">
+<field position="4" name="830000938" type="InputTextArea" id="830000938">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
 <property name="height" value="4"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Conclusionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Conclusionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
