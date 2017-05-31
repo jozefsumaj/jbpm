@@ -13,7 +13,7 @@ public class customer implements java.io.Serializable
 
    private java.lang.String productName;
 
-   private String productId;
+   private Long productId;
 
    private java.lang.String customerEmail;
 
@@ -51,18 +51,18 @@ public class customer implements java.io.Serializable
       this.customerEmail = customerEmail;
    }
 
-   public java.lang.String getProductId()
+   public java.lang.Long getProductId()
    {
       return this.productId;
    }
 
-   public void setProductId(java.lang.String productId)
+   public void setProductId(java.lang.Long productId)
    {
       this.productId = productId;
    }
 
    public customer(java.lang.String customerName, java.lang.String productName,
-         java.lang.String productId, java.lang.String customerEmail)
+         java.lang.Long productId, java.lang.String customerEmail)
    {
       this.customerName = customerName;
       this.productName = productName;
