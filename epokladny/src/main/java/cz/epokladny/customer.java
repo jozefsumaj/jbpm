@@ -9,32 +9,16 @@ public class customer implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   private java.lang.String firstName;
-   private java.lang.String lastName;
    private java.lang.String customerName;
+
+   private java.lang.String productName;
+
+   private java.lang.Integer productId;
+
+   private java.lang.String customerEmail;
 
    public customer()
    {
-   }
-
-   public java.lang.String getFirstName()
-   {
-      return this.firstName;
-   }
-
-   public void setFirstName(java.lang.String firstName)
-   {
-      this.firstName = firstName;
-   }
-
-   public java.lang.String getLastName()
-   {
-      return this.lastName;
-   }
-
-   public void setLastName(java.lang.String lastName)
-   {
-      this.lastName = lastName;
    }
 
    public java.lang.String getCustomerName()
@@ -47,12 +31,43 @@ public class customer implements java.io.Serializable
       this.customerName = customerName;
    }
 
-   public customer(java.lang.String firstName, java.lang.String lastName,
-         java.lang.String customerName)
+   public java.lang.String getProductName()
    {
-      this.firstName = firstName;
-      this.lastName = lastName;
+      return this.productName;
+   }
+
+   public void setProductName(java.lang.String productName)
+   {
+      this.productName = productName;
+   }
+
+   public java.lang.Integer getProductId()
+   {
+      return this.productId;
+   }
+
+   public void setProductId(java.lang.Integer productId)
+   {
+      this.productId = productId;
+   }
+
+   public java.lang.String getCustomerEmail()
+   {
+      return this.customerEmail;
+   }
+
+   public void setCustomerEmail(java.lang.String customerEmail)
+   {
+      this.customerEmail = customerEmail;
+   }
+
+   public customer(java.lang.String customerName, java.lang.String productName,
+         java.lang.Integer productId, java.lang.String customerEmail)
+   {
       this.customerName = customerName;
+      this.productName = productName;
+      this.productId = productId;
+      this.customerEmail = customerEmail;
    }
 
 }
