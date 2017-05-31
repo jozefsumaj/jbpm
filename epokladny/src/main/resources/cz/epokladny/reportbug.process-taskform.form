@@ -6,7 +6,7 @@
 <field position="1" name="bugreport_product" type="InputText" id="1822554968">
 <property name="fieldRequired" value="true"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Sofware solutionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Sofware solutionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -89,28 +89,28 @@
 <property name="readonly" value="false"/>
 <property name="htmlContent" value="quot;caquot;,quot;&lt;h1&gt;Report issue&lt;/h1&gt;
 
-&lt;p&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom:30px&quot;&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
 quot;quot;dequot;,quot;&lt;h1&gt;Report issue&lt;/h1&gt;
 
-&lt;p&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom:30px&quot;&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
 quot;quot;enquot;,quot;&lt;h1&gt;Report issue&lt;/h1&gt;
 
-&lt;p&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom:30px&quot;&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
 quot;quot;esquot;,quot;&lt;h1&gt;Report issue&lt;/h1&gt;
 
-&lt;p&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom:30px&quot;&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
 quot;quot;frquot;,quot;&lt;h1&gt;Report issue&lt;/h1&gt;
 
-&lt;p&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom:30px&quot;&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
 quot;quot;jaquot;,quot;&lt;h1&gt;Report issue&lt;/h1&gt;
 
-&lt;p&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom:30px&quot;&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
 quot;quot;ptquot;,quot;&lt;h1&gt;Report issue&lt;/h1&gt;
 
-&lt;p&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom:30px&quot;&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
 quot;quot;zhquot;,quot;&lt;h1&gt;Report issue&lt;/h1&gt;
 
-&lt;p&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
+&lt;p style=&quot;margin-bottom:30px&quot;&gt;Please report the discovered issue in your bellow.&lt;/p&gt;
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
