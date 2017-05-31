@@ -11,7 +11,7 @@ public class customer implements java.io.Serializable
 
    private java.lang.String firstName;
    private java.lang.String lastName;
-   private java.lang.String email;
+   private java.lang.String customerName;
 
    public customer()
    {
@@ -37,22 +37,22 @@ public class customer implements java.io.Serializable
       this.lastName = lastName;
    }
 
-   public java.lang.String getEmail()
+   public java.lang.String getCustomerName()
    {
-      return this.email;
+      return this.customerName;
    }
 
-   public void setEmail(java.lang.String email)
+   public void setCustomerName(java.lang.String customerName)
    {
-      this.email = email;
+      this.customerName = customerName;
    }
 
    public customer(java.lang.String firstName, java.lang.String lastName,
-         java.lang.String email)
+         java.lang.String customerName)
    {
       this.firstName = firstName;
       this.lastName = lastName;
-      this.email = email;
+      this.customerName = customerName;
    }
 
 }
