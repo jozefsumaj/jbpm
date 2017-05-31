@@ -49,7 +49,7 @@
 <property name="inputBinding" value="reclamationlog/damaged"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="0" name="reclamationlog_datecreated" type="InputDate" id="2047321386">
+<field position="0" name="reclamationlog_datecreated" type="InputShortDate" id="2047321386">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Datequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
