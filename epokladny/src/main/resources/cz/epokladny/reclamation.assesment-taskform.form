@@ -3,6 +3,27 @@
 <property name="name" value="reclamation.assesment-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="reclamationassesment_estimation" type="InputTextInteger" id="1373846376">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estimation (reclamationassesment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reclamationassesment/estimation"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="reclamationassesment_occurence" type="InputText" id="1392543382">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;occurence (reclamationassesment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reclamationassesment/occurence"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="reclamationassesment_replicated" type="CheckBox" id="930567718">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;replicated (reclamationassesment)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="reclamationassesment/replicated"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
 <dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="reclamationassesment" value="cz.epokladny.reclamationassesment" id="reclamationassesment"/>
 <dataHolder inputId="reclamationlog" name="#E9E371" type="dataModelerEntry" outId="" value="cz.epokladny.reclamationlog" id="reclamationlog"/>
 </form>
