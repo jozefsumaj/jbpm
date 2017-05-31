@@ -3,20 +3,28 @@
 <property name="name" value="confirm-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="1" name="reclamationlog_datecreated" type="InputDate" id="1207667775">
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1992281685">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Datequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt; quot;quot;dequot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt; quot;quot;enquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt; quot;quot;esquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt; quot;quot;frquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt; quot;quot;jaquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt; quot;quot;ptquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt; quot;quot;zhquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="reclamationlog_datecreated" type="InputShortDate" id="1207667775">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Datequot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
 <property name="inputBinding" value="reclamationlog/datecreated"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="2" name="reclamationlog_description" type="InputTextArea" id="1953606426">
+<field position="3" name="reclamationlog_description" type="InputTextArea" id="1953606426">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="height" value="4"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Descriptionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -26,10 +34,10 @@
 <property name="inputBinding" value="reclamationlog/description"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="reclamationlog_location" type="InputText" id="556682205">
+<field position="2" name="reclamationlog_location" type="InputText" id="556682205">
 <property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Locationquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Locationquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -38,11 +46,18 @@
 <property name="inputBinding" value="reclamationlog/location"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="4" name=":decorator_1" type="HTMLLabel" id="393387501">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt; quot;quot;dequot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt; quot;quot;enquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt; quot;quot;esquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt; quot;quot;frquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt; quot;quot;jaquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt; quot;quot;ptquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt; quot;quot;zhquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <field position="5" name="reclamationreport_steps" type="InputTextArea" id="1688926704">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
 <property name="height" value="4"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Stepsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Stepsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -55,7 +70,7 @@
 <field position="6" name="reclamationreport_conclusion" type="InputTextArea" id="338273668">
 <property name="fieldRequired" value="false"/>
 <property name="height" value="3"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Conclusionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Conclusionquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="true"/>
@@ -66,39 +81,9 @@
 <property name="inputBinding" value="reclamationreport/conclusion"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="0" name=":decorator_0" type="HTMLLabel" id="1992281685">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt;
-quot;quot;dequot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt;
-quot;quot;enquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt;
-quot;quot;esquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt;
-quot;quot;frquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt;
-quot;quot;jaquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt;
-quot;quot;ptquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt;
-quot;quot;zhquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Reclamation status&lt;/h1&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
-<field position="4" name=":decorator_1" type="HTMLLabel" id="393387501">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt;
-quot;quot;dequot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt;
-quot;quot;enquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt;
-quot;quot;esquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt;
-quot;quot;frquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt;
-quot;quot;jaquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt;
-quot;quot;ptquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt;
-quot;quot;zhquot;,quot;&lt;h1 style=&quot;width:350px&quot;&gt;Service report&lt;/h1&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
-</field>
 <field position="7" name="947600861" type="InputTextArea" id="947600861">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Note to customerquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Note to customerquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
