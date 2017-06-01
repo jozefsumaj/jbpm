@@ -70,13 +70,5 @@
 <property name="outputBinding" value="scopeaccepted"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="6" name="21522045" type="Document" id="21522045">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Attachmentsquot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="designattachment"/>
-<property name="fieldClass" value="org.jbpm.document.Document"/>
-</field>
 <dataHolder inputId="feature" name="#BBBBBB" type="dataModelerEntry" outId="" value="cz.epokladny.newfeature" id="feature"/>
 </form>
