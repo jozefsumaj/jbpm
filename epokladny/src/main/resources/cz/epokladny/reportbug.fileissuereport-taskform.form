@@ -25,7 +25,7 @@
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
 <property name="inputBinding" value="bugreport/product"/>
-<property name="outputBinding" value="newfeature/project"/>
+<property name="outputBinding" value="issuereport/project"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="2" name="bugreport_version" type="InputText" id="1465872718">
