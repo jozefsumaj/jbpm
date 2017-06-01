@@ -6,14 +6,30 @@
 <field position="0" name=":decorator_0" type="HTMLLabel" id="966250024">
 <property name="fieldRequired" value="false"/>
 <property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h1&gt;New feature requirements&lt;/h1&gt;
-quot;quot;dequot;,quot;&lt;h1&gt;New feature requirements&lt;/h1&gt;
-quot;quot;enquot;,quot;&lt;h1&gt;New feature requirements&lt;/h1&gt;
-quot;quot;esquot;,quot;&lt;h1&gt;New feature requirements&lt;/h1&gt;
-quot;quot;frquot;,quot;&lt;h1&gt;New feature requirements&lt;/h1&gt;
-quot;quot;jaquot;,quot;&lt;h1&gt;New feature requirements&lt;/h1&gt;
-quot;quot;ptquot;,quot;&lt;h1&gt;New feature requirements&lt;/h1&gt;
-quot;quot;zhquot;,quot;&lt;h1&gt;New feature requirements&lt;/h1&gt;
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h1 style=&quot;width:400px&quot;&gt;New feature requirements&lt;/h1&gt;
+
+&lt;p&gt;Describes required steps and involved parties&amp;nbsp;to ship new features.&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;h1 style=&quot;width:400px&quot;&gt;New feature requirements&lt;/h1&gt;
+
+&lt;p&gt;Describes required steps and involved parties&amp;nbsp;to ship new features.&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;h1 style=&quot;width:400px&quot;&gt;New feature requirements&lt;/h1&gt;
+
+&lt;p&gt;Describes required steps and involved parties&amp;nbsp;to ship new features.&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;h1 style=&quot;width:400px&quot;&gt;New feature requirements&lt;/h1&gt;
+
+&lt;p&gt;Describes required steps and involved parties&amp;nbsp;to ship new features.&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;h1 style=&quot;width:400px&quot;&gt;New feature requirements&lt;/h1&gt;
+
+&lt;p&gt;Describes required steps and involved parties&amp;nbsp;to ship new features.&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;h1 style=&quot;width:400px&quot;&gt;New feature requirements&lt;/h1&gt;
+
+&lt;p&gt;Describes required steps and involved parties&amp;nbsp;to ship new features.&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;h1 style=&quot;width:400px&quot;&gt;New feature requirements&lt;/h1&gt;
+
+&lt;p&gt;Describes required steps and involved parties&amp;nbsp;to ship new features.&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;h1 style=&quot;width:400px&quot;&gt;New feature requirements&lt;/h1&gt;
+
+&lt;p&gt;Describes required steps and involved parties&amp;nbsp;to ship new features.&lt;/p&gt;
 quot;"/>
 <property name="fieldClass" value="HTMLlabel"/>
 </field>
